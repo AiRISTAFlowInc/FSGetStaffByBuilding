@@ -1,0 +1,41 @@
+{
+  "name": "Get Staff By Building",
+  "type": "flogo:activity",
+  "version": "0.0.1",
+  "title": "A1: Get Staff By Building",
+  "description": "Returns Array of Staff",
+  "homepage": "https://github.com/AiRISTAFlowInc/FlowActivities/tree/main/GetStaffByBuilding",
+  "input": [
+    {
+      "name": "IP",
+      "type": "string",
+      "required": true
+    },
+    {
+      "name": "CustomerId",
+      "type": "string",
+      "required": true
+    },
+    {
+      "name": "Username",
+      "type": "string",
+      "required": true
+    },
+    {
+      "name": "Password",
+      "type": "string",
+      "required": true
+    },
+    {
+      "name": "Building",
+      "type": "string",
+      "required": true
+    }
+  ],
+  "output": [
+    {
+      "name": "Staff",
+      "type": "array"
+    }
+  ]
+}
